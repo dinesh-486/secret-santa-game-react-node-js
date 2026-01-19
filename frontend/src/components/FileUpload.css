@@ -1,0 +1,169 @@
+.file-upload-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.file-upload-container h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+}
+
+.upload-section {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.file-input-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.file-label {
+  display: block;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+}
+
+.required {
+  color: #e74c3c;
+}
+
+.optional {
+  color: #95a5a6;
+  font-size: 0.9em;
+}
+
+.help-text {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  margin-bottom: 12px;
+}
+
+.file-input-wrapper {
+  position: relative;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-input-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.file-input-button:hover:not(:disabled) {
+  background: #2980b9;
+}
+
+.file-input:disabled + .file-input-button {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.file-selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 10px 15px;
+  background: #ecf0f1;
+  border-radius: 6px;
+  border-left: 4px solid #27ae60;
+}
+
+.file-name {
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.clear-button {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.clear-button:hover:not(:disabled) {
+  color: #c0392b;
+}
+
+.clear-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.generate-button {
+  width: 100%;
+  padding: 14px 28px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.generate-button:hover:not(:disabled) {
+  background: #229954;
+  transform: translateY(-2px);
+}
+
+.generate-button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.generate-button.loading {
+  opacity: 0.8;
+}
+
+.example-section {
+  background: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+}
+
+.example-section h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.example-section pre {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.example-section code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
