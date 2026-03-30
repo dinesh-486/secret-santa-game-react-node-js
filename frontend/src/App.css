@@ -1,0 +1,58 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dde1f2 0%, #dacfe6 100%);
+  padding: 20px;
+}
+
+.actions {
+  max-width: 1000px;
+  margin: 30px auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.download-button,
+.reset-button {
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-button {
+  background: #27ae60;
+  color: white;
+}
+
+.download-button:hover {
+  background: #229954;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+}
+
+.reset-button {
+  background: #3498db;
+  color: white;
+}
+
+.reset-button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+@media (max-width: 600px) {
+  .actions {
+    flex-direction: column;
+  }
+
+  .download-button,
+  .reset-button {
+    width: 100%;
+  }
+}

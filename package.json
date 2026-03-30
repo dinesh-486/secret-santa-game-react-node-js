@@ -1,0 +1,32 @@
+{
+  "name": "secret-santa-game",
+  "version": "1.0.0",
+  "description": "Secret Santa Game - Full-stack application for generating random Secret Santa assignments",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:build": "cd backend && npm run build",
+    "backend:test": "cd backend && npm test",
+    "backend:test:watch": "cd backend && npm run test:watch",
+    "backend:test:coverage": "cd backend && npm run test:coverage",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "secret-santa",
+    "assignment",
+    "game",
+    "employee",
+    "react",
+    "node",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/secret-santa-game.git"
+  }
+}
